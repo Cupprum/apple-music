@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-uvx gamdl --read-urls-as-txt albums.txt
+uvx gamdl \
+	--no-synced-lyrics \
+	--save-cover \
+	--read-urls-as-txt albums.txt
